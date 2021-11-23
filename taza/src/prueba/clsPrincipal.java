@@ -12,7 +12,7 @@ public class clsPrincipal {
         clsTaza objTaza1; //declaracion
         objTaza1 = new clsTaza(); //inicializacion o reserva de memoria
         
-        String aux = "Cafetería: " + objTaza1.servirCafe();
+        String aux = "negocio: " + objTaza1.servirCafe();
         imprimir( aux );
         imprimir( objTaza1.despacharCafe() );        
     }
